@@ -31,7 +31,7 @@ Reprodução de um layout utilizando Flexbox.
 ## 🛠️ Tecnologias
 
 - HTML
-- CSS3
+- CSS
 
 ---
 
