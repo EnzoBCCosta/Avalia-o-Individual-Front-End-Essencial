@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a1a;
+  font-family: Arial, sans-serif;
+}
+
+/* TOPO */
+.topo {
+  background-color: #12122a;
+  padding: 30px 40px;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.nome {
+  font-size: 36px;
+  color: #7eaaff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
+
+/* FOTO */
+.foto {
+  width: 100%;
+  height: 440px;
+  background-color: #1a1a30;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* SEÇÕES */
+.secao {
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sobre {
+  font-size: 16px;
+  color: #aaaacc;
+  line-height: 1.8;
+}
+
+/* HOBBIES */
+.hobbies {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hobbies li {
+  background-color: #1e1e3a;
+  color: #ccccee;
+  padding: 14px 20px;
+  border-left: 4px solid #7eaaff;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.github {
+  background-color: #7eaaff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #0a0a1a;
+}
+
+.github:hover {
+  background-color: #aac4ff;
+}
+
