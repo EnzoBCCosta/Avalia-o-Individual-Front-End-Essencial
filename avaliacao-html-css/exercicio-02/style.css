@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60rem;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #222;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #aaa;
+}
+
+.logo{
+    color: #f88603;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+}
+ 
+.imagem-produto {
+  background-color: #ddd;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-produto img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+ 
+.informacoes {
+  padding: 20px;
+}
+ 
+.nome {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 10px;
+}
+ 
+.descricao {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+ 
+.preco {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e44;
+  margin-bottom: 15px;
+}
+ 
+.botao-comprar {
+  width: 100%;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+.botao-comprar:hover {
+  background-color: #f88603;
+}
