@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.header {
+  background-color: #111111;
+  height: 10vh;
+  width: 100%;
+}
+ 
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+ 
+.sidebar {
+  background-color: #f4a7b9;
+  width: 15vh;
+  flex-shrink: 0;
+}
+ 
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+ 
+.main-body {
+  background-color: #e8dea0;
+  flex: 1;
+}
+ 
+.footer {
+  background-color: #a0694a;
+  height: 10vh;
+}
