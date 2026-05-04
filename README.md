@@ -1,6 +1,6 @@
 # 📁 Avaliação Front-End Essencial
 
-Exercícios de HTML e CSS desenvolvidos como avaliação individual.
+Exercícios de HTML e CSS desenvolvidos como avaliação individual para o Serratec.
 
 ---
 
@@ -30,7 +30,7 @@ Reprodução de um layout utilizando Flexbox.
 
 ## 🛠️ Tecnologias
 
-- HTML5
+- HTML
 - CSS3
 
 ---
